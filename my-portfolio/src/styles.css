@@ -272,7 +272,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .hero__art {
+  .profile-border {
     order: -1;
   }
 }
