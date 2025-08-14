@@ -16,7 +16,7 @@ export default function Projects() {
                 {p.stack.map((t) => <li key={t}>{t}</li>)}
               </ul>
               <div className="card__actions">
-                {/* <a className="btn small" href={p.live} target="_blank" rel="noreferrer">Live</a> */}
+                <a className="btn small" href={p.live} target="_blank" rel="noreferrer">Live</a>
                 <a className="btn small ghost" href={p.repo} target="_blank" rel="noreferrer">Code</a>
               </div>
             </div>

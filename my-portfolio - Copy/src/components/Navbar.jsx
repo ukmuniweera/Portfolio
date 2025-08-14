@@ -13,7 +13,7 @@ export default function Navbar({ sections, activeId, onJump }) {
     <header className="nav">
       <div className="nav__inner">
         <button className="brand" onClick={() => onJump("home")} aria-label="Go to Home">
-          <span className="brand__dot" aria-hidden>●</span> Portfolio 
+          <span className="brand__dot" aria-hidden>●</span> Udula
         </button>
 
         <nav aria-label="Primary">

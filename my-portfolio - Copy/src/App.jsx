@@ -58,9 +58,9 @@ export default function App() {
           <Skills />
         </section>
 
-        {/* <section id="experience" ref={sectionRefs.experience} aria-label="Experience">
+        <section id="experience" ref={sectionRefs.experience} aria-label="Experience">
           <Experience />
-        </section> */}
+        </section>
 
         <section id="projects" ref={sectionRefs.projects} aria-label="Projects">
           <Projects />

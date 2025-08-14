@@ -9,17 +9,11 @@ export default function Footer({ onJumpTop }) {
         <ul className="social">
           {LINKS.map((l) => (
             <li key={l.label}>
-              <a 
-                href={l.href} 
-                target="_blank" 
-                rel="noreferrer" 
-                aria-label={l.label}
-                dangerouslySetInnerHTML={{ __html: l.icon }}
-              />
+              <a href={l.href} target="_blank" rel="noreferrer" aria-label={l.label}>{l.icon}</a>
             </li>
           ))}
         </ul>
-        <span className="muted">© {new Date().getFullYear()} Udula Kesara Muniweera — All rights reserved.</span>
+        <span className="muted">© {new Date().getFullYear()} Udula — All rights reserved.</span>
       </div>
     </footer>
   );
