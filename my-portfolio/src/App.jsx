@@ -33,7 +33,6 @@ export default function App() {
     return () => obs.disconnect();
   }, [sectionRefs]);
 
-  // smooth scroll handler for navbar links
   const scrollTo = (id) => {
     const el = sectionRefs[id]?.current;
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });

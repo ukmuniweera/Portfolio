@@ -19,34 +19,23 @@ export const ABOUT = {
 };
 
 export const SKILLS = [
-  // Frontend
   { name: "HTML", level: "Advanced" },
   { name: "CSS", level: "Advanced" },
   { name: "JavaScript", level: "Advanced" },
-  { name: "TypeScript", level: "Intermediate" },       // Optional but valuable in modern React apps
+  { name: "TypeScript", level: "Intermediate" },
   { name: "React.js", level: "Advanced" },
-
-  // Backend (Core)
   { name: "Node.js", level: "Advanced" },
   { name: "Express.js", level: "Advanced" },
   { name: "Java (Spring Boot)", level: "Intermediate" },
   { name: "PHP", level: "Intermediate" },
   { name: "Laravel", level: "Intermediate" },
-
-  // Databases
   { name: "MySQL", level: "Intermediate" },
   { name: "MongoDB", level: "Intermediate" },
-
-  // APIs & Auth
   { name: "RESTful APIs", level: "Advanced" },
   { name: "JWT", level: "Intermediate" },
-
-  // Tools & Collaboration
   { name: "Git", level: "Advanced" },
   { name: "GitHub", level: "Advanced" },
-
-  // Optional but useful
-  { name: "CI/CD", level: "Intermediate" }    // DevOps basics for full-stack deployment
+  { name: "CI/CD", level: "Intermediate" }
 ];
 
 
@@ -77,8 +66,8 @@ export const PROJECTS = [
     description:
       "Real time disaster monitoring platform with crowd sourced reporting, predictive modeling and resource mapping.",
     stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    image: "https://static.vecteezy.com/system/resources/previews/013/945/729/non_2x/simple-weather-and-season-icon-vector.jpg", // no image in CV
-    live: "", // no live link in CV
+    image: "https://t.ly/DMSiB",
+    live: "",
     repo: "https://github.com/DisasterWatchHQ"
   },
   {
@@ -87,8 +76,8 @@ export const PROJECTS = [
     description:
       "Full stack marketplace for dirt bike parts with product filtering, image uploads, user dashboards and secure authentication.",
     stack: ["Spring Boot", "React.js", "Material UI", "MySQL", "JWT"],
-    image: "https://t.ly/kF_tK", // no image in CV
-    live: "", // no live link in CV
+    image: "https://t.ly/kF_tK",
+    live: "",
     repo: "https://github.com/BikeKade-lk/Application"
   },
   {
@@ -97,8 +86,8 @@ export const PROJECTS = [
     description:
       "Real time chat app with user authentication, JWT route protection and theme toggle.",
     stack: ["React.js", "Node.js", "Express.js", "Socket.io", "MongoDB"],
-    image: "https://t.ly/HQmtN", // no image in CV
-    live: "", // no live link in CV
+    image: "https://t.ly/HQmtN",
+    live: "",
     repo: "https://github.com/ukmuniweera/ConnectX"
   }
 ];

@@ -1,6 +1,6 @@
 import React from "react";
-const link = 'https://t.ly/OQVUF';
-import profileImg from "../assets/profile.jpg"; // adjust path to your image
+const downloadLink = 'https://t.ly/OQVUF';
+import profileImg from "../assets/profile.jpg";
 
 export default function Hero({ onCTAClick }) {
   return (
@@ -15,11 +15,11 @@ export default function Hero({ onCTAClick }) {
         </p>
         <div className="hero__actions">
           <a className="btn primary" onClick={onCTAClick}>View Projects</a>
-          <a className="btn ghost" href={link}>Download CV</a>
+          <a className="btn ghost" href={downloadLink}>Download CV</a>
         </div>
       </div>
 
-      <div className="hero__art" role="img" aria-label="Developer illustration">
+      <div className="profile-border">
         <div className="profile-pic-wrapper">
           <img src={profileImg} alt="Udula K Muniweera" className="profile-pic" />
         </div>

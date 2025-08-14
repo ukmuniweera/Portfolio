@@ -9,10 +9,10 @@ export default function Footer({ onJumpTop }) {
         <ul className="social">
           {LINKS.map((l) => (
             <li key={l.label}>
-              <a 
-                href={l.href} 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href={l.href}
+                target="_blank"
+                rel="noreferrer"
                 aria-label={l.label}
                 dangerouslySetInnerHTML={{ __html: l.icon }}
               />
