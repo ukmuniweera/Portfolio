@@ -1,6 +1,6 @@
 import React from "react";
-const downloadLink = 'https://t.ly/OQVUF';
 import profileImg from "../assets/Profile.jpg";
+const downloadLink = 'https://t.ly/468d2';
 
 export default function Hero({ onCTAClick }) {
   return (
